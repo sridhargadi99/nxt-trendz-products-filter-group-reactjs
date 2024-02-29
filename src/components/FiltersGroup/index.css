@@ -1,0 +1,74 @@
+.filters-group-container {
+  margin-top: 16px;
+}
+
+@media screen and (min-width: 768px) {
+  .filters-group-container {
+    width: 30%;
+    max-width: 350px;
+    margin-top: 48px;
+    flex-shrink: 0;
+  }
+}
+
+/* Write your CSS here */
+.input-search-style {
+  display: flex;
+  justify-content: space-between;
+}
+.filter-input-style {
+  height: 40px;
+  width: 100%;
+  padding-left: 15px;
+  border-right: none;
+  border-top-left-radius: 8px;
+  border-bottom-left-radius: 8px;
+  border: none;
+  background-color: #f1f5f9;
+  cursor: pointer;
+  outline: none;
+  font-family: 'Roboto';
+  font-size: 17px;
+  font-weight: 500;
+  color: #0f172a;
+  cursor: pointer;
+  outline: none;
+}
+.filter-search-style {
+  background-color: red;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  border-top-right-radius: 8px;
+  border-bottom-right-radius: 8px;
+  background-color: #f1f5f9;
+}
+.category-list-container {
+  margin-bottom: 30px;
+  margin-top: 20px;
+}
+.name-style {
+  font-family: 'Roboto';
+  font-size: 22px;
+  font-weight: 700;
+  color: #0f172a;
+}
+
+.list-container {
+  padding: 0px;
+}
+
+.clear-button-style {
+  height: 40px;
+  border-radius: 8px;
+  background-color: transparent;
+  border: 1px solid #0967d2;
+  font-family: 'Roboto';
+  font-size: 15px;
+  font-weight: 500;
+  color: #0967d2;
+  padding-left: 10px;
+  padding-right: 10px;
+  cursor: pointer;
+  outline: none;
+}

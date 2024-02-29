@@ -1,0 +1,24 @@
+.rating-list-style {
+  list-style-type: none;
+}
+.rating-button-style {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  outline: none;
+  background-color: transparent;
+  border: none;
+}
+.rating-image-style {
+  height: 25px;
+  margin-right: 10px;
+}
+.rating-content-style {
+  font-family: 'Roboto';
+  font-size: 22px;
+  font-weight: 500;
+  color: #64748b;
+}
+.rating-content-style1 {
+  color: #0967d2;
+}

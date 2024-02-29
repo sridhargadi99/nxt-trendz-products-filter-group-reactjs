@@ -1,0 +1,11 @@
+.category-list-style {
+  list-style-type: none;
+  font-family: 'Roboto';
+  font-size: 20px;
+  font-weight: 500;
+  color: #64748b;
+  margin-bottom: 20px;
+}
+.category-list-style1 {
+  color: #0967d2;
+}
